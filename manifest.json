@@ -1,5 +1,5 @@
 {
-	"name": "MiniMeters",
+	"name": "RealMeters",
 	"description": "Real-audio metering visualizer for Spotify: LUFS, spectrum, spectrogram, true peak, oscilloscope and stereometer, fed by a local WASAPI bridge.",
 	"preview": "preview.png",
 	"readme": "README.md",

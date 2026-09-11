@@ -1,9 +1,8 @@
-# MiniMeters for Spotify
+# RealMeters
 
-A full-screen audio-metering visualizer for Spotify ([Spicetify](https://spicetify.app) custom app).
-It shows the **real output signal** — not Spotify's precomputed analysis — in a compact
-mastering-style layout: spectrogram, spectrum, waveform, oscilloscope, stereometer and
-LUFS / true-peak.
+A full-screen, mastering-style audio-metering visualizer for Spotify ([Spicetify](https://spicetify.app)
+custom app). It shows the **real output signal** — not Spotify's precomputed analysis — in a compact
+layout: spectrogram, spectrum, waveform, oscilloscope, stereometer and LUFS / true-peak.
 
 The numbers are real: a −20 dBFS tone reads −20.00 LUFS / −19.99 dBTP.
 
@@ -22,18 +21,18 @@ Because the bridge uses WASAPI loopback, this is **Windows only** for now.
 
        npm install
        npm run build
-       # copy dist/ into %APPDATA%\spicetify\CustomApps\minimeters\
-       spicetify config custom_apps minimeters
+       # copy dist/ into %APPDATA%\spicetify\CustomApps\realmeters\
+       spicetify config custom_apps realmeters
        spicetify apply
 
-3. Open **MiniMeters** from the left sidebar in Spotify and start playing something.
+3. Open **RealMeters** from the left sidebar in Spotify and start playing something.
 
 Prefer the Marketplace? Install [Spicetify Marketplace](https://github.com/spicetify/marketplace)
-and search for *MiniMeters*.
+and search for *RealMeters*.
 
 ## Notes
-- Independent, unofficial project. Not affiliated with the MiniMeters desktop app; it only
-  borrows the metering layout for a Spotify-embedded view.
+- Independent, unofficial project. The mastering-style layout is inspired by the
+  [MiniMeters](https://minimeters.app) desktop app; RealMeters is not affiliated with or endorsed by it.
 - The visualizer renders at the browser refresh rate; the analysis and the spectrogram scroll
   run at the bridge frame rate (144 fps by default).
 

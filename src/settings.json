@@ -1,6 +1,6 @@
 {
-	"displayName": { "en": "MiniMeters" },
-	"nameId": "minimeters",
+	"displayName": { "en": "RealMeters" },
+	"nameId": "realmeters",
 	"icon": "icon.svg",
 	"activeIcon": "icon-active.svg"
 }
