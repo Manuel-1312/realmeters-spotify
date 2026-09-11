@@ -17,7 +17,15 @@ Because the bridge uses WASAPI loopback, this is **Windows only** for now.
 
 ## Install
 1. Install and run the bridge — see [minimeters-bridge](https://github.com/Manuel-1312/minimeters-bridge).
-2. Build and install this custom app:
+2. Install the custom app — either way copies the app into
+   `%APPDATA%\spicetify\CustomApps\realmeters\`:
+
+   **Prebuilt (no Node needed):** download this repo and copy its `dist/` folder there, then:
+
+       spicetify config custom_apps realmeters
+       spicetify apply
+
+   **From source:**
 
        npm install
        npm run build
@@ -27,8 +35,8 @@ Because the bridge uses WASAPI loopback, this is **Windows only** for now.
 
 3. Open **RealMeters** from the left sidebar in Spotify and start playing something.
 
-Prefer the Marketplace? Install [Spicetify Marketplace](https://github.com/spicetify/marketplace)
-and search for *RealMeters*.
+Prefer the Marketplace? Install [Spicetify Marketplace](https://github.com/spicetify/marketplace),
+open the **Apps** tab and search for *RealMeters* — the card links here for the install steps above.
 
 ## Notes
 - Independent, unofficial project. The mastering-style layout is inspired by the
