@@ -1,0 +1,8 @@
+{
+	"name": "MiniMeters",
+	"description": "Real-audio metering visualizer for Spotify: LUFS, spectrum, spectrogram, true peak, oscilloscope and stereometer, fed by a local WASAPI bridge.",
+	"preview": "preview.png",
+	"readme": "README.md",
+	"authors": [{ "name": "Manuel-1312", "url": "https://github.com/Manuel-1312" }],
+	"tags": ["visualizer", "audio"]
+}

@@ -1,0 +1,6 @@
+{
+	"displayName": { "en": "MiniMeters" },
+	"nameId": "minimeters",
+	"icon": "icon.svg",
+	"activeIcon": "icon-active.svg"
+}

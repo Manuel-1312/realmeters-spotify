@@ -1,0 +1,13 @@
+// La vista ocupa toda el área principal; el canvas la rellena.
+.container {
+	position: absolute;
+	inset: 0;
+	background: #000;
+	overflow: hidden;
+}
+
+.container > canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
