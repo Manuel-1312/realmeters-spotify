@@ -6,6 +6,8 @@ layout: spectrogram, spectrum, waveform, oscilloscope, stereometer and LUFS / tr
 
 The numbers are real: a −20 dBFS tone reads −20.00 LUFS / −19.99 dBTP.
 
+![RealMeters running in Spotify](demo.gif)
+
 ## How it works
 The drawing runs inside Spotify. The measurements come from a small local companion —
 **[minimeters-bridge](https://github.com/Manuel-1312/minimeters-bridge)** — which captures the
