@@ -1,8 +1,9 @@
 {
 	"name": "RealMeters",
-	"description": "Real-audio metering visualizer for Spotify: LUFS, spectrum, spectrogram, true peak, oscilloscope and stereometer, fed by a local WASAPI bridge.",
+	"description": "Real-audio metering visualizer for Spotify: LUFS, spectrum, spectrogram, true peak, oscilloscope and stereometer, fed by a local WASAPI bridge. Open it from the now-playing bar.",
 	"preview": "preview.png",
+	"main": "extension/realmeters.js",
 	"readme": "README.md",
 	"authors": [{ "name": "Manuel-1312", "url": "https://github.com/Manuel-1312" }],
-	"tags": ["visualizer", "audio"]
+	"tags": ["visualizer", "audio", "meters", "LUFS", "spectrum"]
 }
