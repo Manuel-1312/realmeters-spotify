@@ -21,12 +21,14 @@ The numbers are real: a −20 dBFS tone reads −20.00 LUFS / −19.99 dBTP.
 A Spicetify extension is sandboxed JavaScript inside Spotify — it **cannot capture system
 audio by itself**. The measurements come from a small local companion,
 **[minimeters-bridge](https://github.com/Manuel-1312/minimeters-bridge)**, which captures the
-default Windows output through WASAPI loopback and streams them on `ws://127.0.0.1:8985`.
+system output (WASAPI loopback on Windows, a virtual device such as BlackHole on macOS/Linux)
+and streams them on `ws://127.0.0.1:8985`.
 
-Install it once (Windows, no admin needed): download the
+Install it once. On Windows (no admin needed): download the
 [latest release](https://github.com/Manuel-1312/minimeters-bridge/releases/latest), extract,
-and double-click **`Install MiniMeters Bridge.bat`**. Until it is running, the view shows
-*bridge offline*. Because the bridge uses WASAPI loopback, this is **Windows only** for now.
+and double-click **`Install MiniMeters Bridge.bat`**. On macOS/Linux follow
+[*Install (macOS / Linux)*](https://github.com/Manuel-1312/minimeters-bridge#install-macos--linux)
+in the bridge README. Until it is running, the view shows *bridge offline*.
 
 <details>
 <summary>Prefer a dedicated sidebar page (custom app)?</summary>
@@ -56,7 +58,7 @@ Then open **RealMeters** from the left sidebar.
   [MiniMeters](https://minimeters.app) desktop app; RealMeters is not affiliated with or
   endorsed by it.
 - The visualizer renders at the browser refresh rate; the analysis and the spectrogram scroll
-  run at the bridge frame rate (144 fps by default).
+  run at the bridge frame rate (60 fps by default).
 
 ## License
 MIT — see [LICENSE](LICENSE).
